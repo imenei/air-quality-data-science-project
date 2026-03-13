@@ -69,7 +69,9 @@ A finer segmentation into three levels (*Low / Medium / High*) was performed usi
 | Linear Regression | 0.9849 | 0.1243 | 0.0852 |
 | Random Forest | 0.9997 | 0.0183 | 0.0047 |
 | SVR | 0.9951 | 0.0710 | 0.0416 |
+
 **Insight:** Random Forest achieved the best performance with near-perfect R² and minimal error, indicating strong non-linear modeling capability.
+
  ## Binary Classification Performance
 | Model               | Train Accuracy | Test Accuracy | F1-score (weighted) |
 | ------------------- | -------------- | ------------- | ------------------- |
@@ -77,6 +79,7 @@ A finer segmentation into three levels (*Low / Medium / High*) was performed usi
 | K-Nearest Neighbors | 0.97           | 0.96          | 0.96                |
 | SVM                 | 0.98           | 0.98          | 0.98                |
 | Naive Bayes         | 0.92           | 0.91          | 0.91                |
+
 
 **Insight:** Decision Tree achieved perfect accuracy for binary classification, while SVM and KNN also performed very well. Naive Bayes showed slightly lower performance but remains solid.
 
